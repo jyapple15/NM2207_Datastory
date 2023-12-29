@@ -21,9 +21,8 @@ fear_labels <- grep("death|suspense|horror|murder|aggressive|violence|shock",
 
 # Any pics etc. need to be in www folder
 ui <- fluidPage(
-  tags$link(rel = "stylesheet", href = "styles.css"), #In www folder
+  includeCSS("www/styles.css"),
   titlePanel("Is the smell of fear real?"),
-  
   glide(
     id = "description",
     controls_position = "bottom",

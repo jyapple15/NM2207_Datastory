@@ -1,4 +1,143 @@
 /* css styles */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+/* Entire thing */
+.container-fluid {
+  padding: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+body {
+  background-color: black;
+  color: white; /* text color */
+}
+
+/* titlePanel() style */
+h2 {
+  font-family: 'Eater', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: #ec8130;
+  padding: 30px;
+  margin: 0px;
+}
+
+/* screen */
+#screen_0 {
+  width = 100%;
+}
+
+/* graphs and images */
+img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* hyperlinks */
+a {
+  color: yellow;
+}
+
+a:hover, a:visited {
+  color: orange;
+}
+
+/* pop ups */
+.modal-body {
+  color: black;
+}
+
+.modal-body > p {
+  margin-bottom: 0px;
+}
+
+/* Navigation buttons */
+.btn-primary, .btn-primary:focus, .btn-primary:hover {
+  background: #eccb06;
+  color: black;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btn-default, .btn-default:focus, .btn-default:hover {
+  background: grey;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.next {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#return_5 {
+  background: #db7020;
+}
+
+/* Tabset Panels */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: white;
+  background-color: #57504d;
+}
+
+/* Input panels */
+.well {
+  background-color: #db7020;
+  border: none;
+  margin-bottom: 10px;
+}
+
+/* Inputs Areas */
+.shiny-input-container {
+  color: black;
+}
+
+/* Slider Selected Portion */
+/*  .irs-single = slider inputs near,
+    .irs-to & .irs-from = slider inputs apart,
+    .irs-bar = slider input range */
+.irs--shiny .irs-single, .irs--shiny .irs-to, .irs--shiny .irs-from, .irs--shiny .irs-bar {
+  color: white;
+  background: #000066;
+  border: #000066;
+}
+
+/* Entire slider bar */
+.irs--shiny .irs-line {
+  background: #886666;
+  border: none;
+}
+
+/* Fear Labels Input Area */
+#whats_fear-label {
+  color: #dadedf;
+}
+
+#whats_fear-well.well > div > div > div > .selectize-input.has-items {
+  color: #dadedf;
+  background-color: grey;
+}
+
+.selectize-control.multi .selectize-input > div {
+  background: none;
+  color: #dadedf;
+  border-width: 1px;
+  border-color: white;
+}
+
+.selectize-control.multi .selectize-input > div:active, .selectize-control.multi .selectize-input > div.item.active {
+  background: #52b2bf;
+  cursor: white;
+}
+
 .button:hover {
   transform: scale(1.03);
   opacity: 80%;

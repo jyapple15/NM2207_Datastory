@@ -1,0 +1,12 @@
+name: datastory
+title: datastory
+username: andrea-jy
+account: andrea-jy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10618135
+bundleId: 8093330
+url: https://andrea-jy.shinyapps.io/datastory/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -60,10 +60,9 @@ ui <- fluidPage(
         p("Some think of it as a metaphor of sorts. Meanwhile, some say that other living things
           such as bears and dogs can smell your fear. Have you ever wondered if this is true? Does
           the \"The smell of fear\" actually exist? Well, let\'s break it down."),
-        tags$table(
-          tags$tbody(
-            tags$td(
-              p("A smell of fear can possibly come about from chemicals excreted by our bodies. These are
+        div(class = "flex-container",
+            div(class = "flex-item", style = "padding:0px;",
+                p("A smell of fear can possibly come about from chemicals excreted by our bodies. These are
                 then detected by the olfactory receptors such as those in our noses, leading to what we 
                 perceive as \"smell\". Thus, a smell of fear would be detectable by analysing the gas around
                 a person in fear. Using this concept, a group of researchers sampled the gas emitted in the
@@ -71,10 +70,9 @@ ui <- fluidPage(
                 samples were then input into a mass spectrometer (PTR-MS-ToF) to obtain the", actionLink(inputId = "mz_def", label="mass to charge 
                 ratio (m/z)"), "of compounds in the gas. Now, let's look for trends by comparing the concentrations of those compounds with 
                 the pre-labelled scenes!")),
-            tags$td(
-              tags$image(src = "https://d1ymz67w5raq8g.cloudfront.net/Pictures/480xAny/3/8/6/114386_0117EiC_EducationinChemistry_January2017-28.jpg", height="190px")
+            div(style = "display: flex;justify-content: center;",
+                tags$image(style = "margin-right: 0px", src = "https://d1ymz67w5raq8g.cloudfront.net/Pictures/480xAny/3/8/6/114386_0117EiC_EducationinChemistry_January2017-28.jpg", height="190px")
             )
-          )
         ),
         p("*Masses such as 18.9921 and 18.9995 are considered as non-identical. Mass of compounds are not 
           unique for chemicals with the same composition."),

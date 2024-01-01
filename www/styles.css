@@ -46,6 +46,16 @@ a:hover, a:visited {
   color: orange;
 }
 
+/* flex */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  flex: 50%;
+}
+
 /* pop ups */
 .modal-body {
   color: black;
